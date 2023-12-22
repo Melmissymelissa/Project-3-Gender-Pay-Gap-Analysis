@@ -41,8 +41,12 @@ This dataset from 2021 from the US Department of Labor is the most recent datase
 <p>3. There is a substantial disparity in gender-based occupational segregation within industries or occupations that have lower median earnings.</p>
 <div align="center"><h2>Results</h2> </div>
 <h3>Hypothesis Analysis 1: </h3>
-<p>The correlation coefficient is positive (0.2156), suggesting a weak positive correlation between the variables: </p>
-![image1](https://drive.google.com/drive/u/0/folders/11BsNskLiXeKFB9IQ12ZLxqudqDtJ8bt1)https://drive.google.com/drive/u/0/folders/11BsNskLiXeKFB9IQ12ZLxqudqDtJ8bt1)
-
-
-
+<p>The correlation coefficient is positive (0.2156), suggesting a weak positive correlation between the variables: "Percentage of women in occupational group" and "Women's Earnings as a percentage of men's earnings" </p>
+<p></p>
+<p>However, it is important to note that the correlation is relatively weak, as the value is closer to zero than to 1. Therefore, while there is a positive relationship between the variables, it is not very strong.</p>
+<h3>Hypothesis Analysis 2: </h3>
+<p>The p-value, less than 0.005, shows that the difference in gender pay gap between these two types of occupations is not due to chance</p>
+<p>With 95% confidence, the gender pay gap is estimated to be approximately $64-$4,000 higher in occupations with fewer women compared to men.</p>
+<h3>Hypothesis Analysis 3: </h3>
+<p>TThe p-value is less than 0.005, shows a significant difference in median earnings between occupations with below average and above average proportions of women.</p>
+<p>Median earnings are approximately $4,300-$15,000 higher with 95% confidence in occupations where women are below average</p>
