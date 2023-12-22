@@ -42,7 +42,7 @@ This dataset from 2021 from the US Department of Labor is the most recent datase
 <div align="center"><h2>Results</h2> </div>
 <h3>Hypothesis Analysis 1: </h3>
 <p>The correlation coefficient is positive (0.2156), suggesting a weak positive correlation between the variables: </p>
-![Screen Shot 2023-12-22 at 12 41 12 PM](https://github.com/Melmissymelissa/Project-3-Gender-Pay-Gap-Analysis/assets/142250108/7635cff8-cdf9-4f5c-85c6-7fd2a1313d22)
+![](https://github.com/Melmissymelissa/Project-3-Gender-Pay-Gap-Analysis/blob/main/Images/Screen%20Shot%202023-12-22%20at%2012.41.12%20PM.png)
 
 
 
