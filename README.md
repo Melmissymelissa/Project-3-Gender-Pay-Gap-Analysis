@@ -5,7 +5,7 @@
 <p>With using the Employment and Earning by Occupation dataset from the US Department of Labor, I uncover valuable insights that will help us understand the root causes of this societal issue. By examining industries and occupations, we can work towards creating a fairer and more equitable future for all. 💪🌟</p>
 </body>
 <a href="https://docs.google.com/presentation/d/1_Thn54EwRnlzzFEDCwwoVP457aCFs848OM8gyH6Yu7o/edit?usp=drive_link">Link to presenation</a>
-<a href="https://colab.research.google.com/drive/13HoOmvjNymPu7l6T0bQdarvTgRvnHSP_?usp=drive_link">Link to the jupiter notebook</a>
+<a href="https://colab.research.google.com/drive/13HoOmvjNymPu7l6T0bQdarvTgRvnHSP_?usp=drive_link">Link to Colab</a>
 <h3>Understand</h3>
 <p></p>
 <p>1. The factors that contributeAnalyze the data behind the gender pay gap and occupational segregation</p>
