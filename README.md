@@ -9,6 +9,7 @@
    - [Installation](#installation)
    - [EDA](#EDA)
    - [Analysis](#analysis)
+   - [Results](#results)
 ## Introduction
 <p>In my project, I dive deep into the realm of statistical analysis to investigate and shed light on the factors contributing to occupational segregation and its impact on pay disparities between genders. 💼🔍</p>
 <p></p>
@@ -254,3 +255,11 @@ With 95% confidence, there is a significant difference in median earnings betwee
 The difference in earnings between jobs based on the percentage of men and women reveals societal expectations and biases regarding suitable occupations for each gender. These biases influence job choices and can lead to occupational segregation, where certain jobs are predominantly held by either men or women. Unfortunately, this segregation also contributes to a gender pay gap, with jobs considered more "for women" often paying less than those considered more "for men." This significant difference in earnings highlights the influence of societal biases on work and pay. It is crucial to challenge and change these biases to ensure equal opportunities and fair treatment for everyone in their careers.
 
 ![image19](https://github.com/Melmissymelissa/Project-3-Gender-Pay-Gap-Analysis/assets/142250108/b8722a43-1c73-4948-83cd-6296602df05a)
+
+## Results
+
+The study found that in jobs where there are more women, the average amount of money they earn tends to be lower compared to jobs with fewer women. This difference is quite certain, with a 95% confidence level. The range of difference in earnings is estimated to be around $4,300 to $15,000 less in jobs with more women.
+
+Similarly, there is a noticeable difference in the gender pay gap between jobs with fewer women and jobs with more women. The confidence interval suggests that in jobs with more women, the gender pay gap is estimated to be around $64 to $4,000 more compared to jobs with fewer women. This means that women in jobs with more women tend to earn a bit more compared to women in jobs with fewer women.
+
+These findings show that the number of women in certain jobs can affect how much they earn and the gender pay gap. It's important to work towards equal opportunities and fair pay for everyone, regardless of gender, so that everyone can have a fair chance to succeed in their careers.
