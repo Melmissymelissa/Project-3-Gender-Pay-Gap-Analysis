@@ -91,6 +91,8 @@ plt.tight_layout()  # Ensures labels are not cut off
 plt.show()
  ```
 
+![image1](https://github.com/Melmissymelissa/Project-3-Gender-Pay-Gap-Analysis/assets/142250108/417b24ac-9f6e-4354-a5e3-6924149891ab)
+
 Running Descriptive Statistics 
 ```python
 gender_pay_df.describe().round() # see the descriptive statistics
