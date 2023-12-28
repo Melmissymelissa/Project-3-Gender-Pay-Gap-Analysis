@@ -1,6 +1,7 @@
 <div align="center"><h1>Gender Pay Gap Analysis</h1> </div>
 <a href="https://docs.google.com/presentation/d/1_Thn54EwRnlzzFEDCwwoVP457aCFs848OM8gyH6Yu7o/edit?usp=drive_link">Link to presenation</a>
 <a href="https://colab.research.google.com/drive/13HoOmvjNymPu7l6T0bQdarvTgRvnHSP_?usp=drive_link">Link to Colab</a>
+<a href="https://github.com/Melmissymelissa/Project-3-Gender-Pay-Gap-Analysis/blob/main/Project_root/Dashboards/Emplyment_and_earning_glance.xlsx">Check out my Interactive Dashboard</a>
 
 <!-- TABLE OF CONTENTS -->
    ## Table of Contents
