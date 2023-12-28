@@ -175,6 +175,7 @@ stats.pearsonr(gender_pay_df["Percentage of women in occupational group"], gende
 ![image10](https://github.com/Melmissymelissa/Project-3-Gender-Pay-Gap-Analysis/assets/142250108/593e633a-65ee-427e-8d9d-6c050600b9b8)
 
 With, 95% cofidence, the correlation coefficient is positive (0.165), suggesting a positive correlation between the variables. This means that as the percentage of women in a job group increases, the gender pay gap tends to be larger.
+
 ![image11](https://github.com/Melmissymelissa/Project-3-Gender-Pay-Gap-Analysis/assets/142250108/18468166-2bd8-47a7-844f-cf9f548f429c)
 
 
