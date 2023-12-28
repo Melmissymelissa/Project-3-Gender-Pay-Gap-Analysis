@@ -1,11 +1,19 @@
 <div align="center"><h1>Gender Pay Gap Analysis</h1> </div>
+<a href="https://docs.google.com/presentation/d/1_Thn54EwRnlzzFEDCwwoVP457aCFs848OM8gyH6Yu7o/edit?usp=drive_link">Link to presenation</a>
+<a href="https://colab.research.google.com/drive/13HoOmvjNymPu7l6T0bQdarvTgRvnHSP_?usp=drive_link">Link to Colab</a>
 
+<!-- TABLE OF CONTENTS -->
+   ## Table of Contents
+   - [Introduction](#introduction)
+   - [Data Source](#datasource)
+   - [Installation](#installation)
+   - [EDA](#EDA)
+   - 
+## Introduction
 <p>In my project, I dive deep into the realm of statistical analysis to investigate and shed light on the factors contributing to occupational segregation and its impact on pay disparities between genders. 💼🔍</p>
 <p></p>
 <p>With using the Employment and Earning by Occupation dataset from the US Department of Labor, I uncover valuable insights that will help us understand the root causes of this societal issue. By examining industries and occupations, we can work towards creating a fairer and more equitable future for all. 💪🌟</p>
 </body>
-<a href="https://docs.google.com/presentation/d/1_Thn54EwRnlzzFEDCwwoVP457aCFs848OM8gyH6Yu7o/edit?usp=drive_link">Link to presenation</a>
-<a href="https://colab.research.google.com/drive/13HoOmvjNymPu7l6T0bQdarvTgRvnHSP_?usp=drive_link">Link to Colab</a>
 <h3>Understand</h3>
 <p></p>
 <p>1. The factors that contributeAnalyze the data behind the gender pay gap and occupational segregation</p>
@@ -18,6 +26,8 @@
 <p>3. Why are certain industries or occupations dominated by one gender?</p>
 <p>4. Do men and women tend to earn different amounts in various job types?</p>
 </body>
+
+## Data Source
 <div align="center"><h2>About the Dataset</h2> </div>
 <p></p>
 This dataset from 2021 from the US Department of Labor is the most recent dataset that offers valuable insights for researchers and stakeholders, shedding light on the intricate workings of the gender pay gap and revealing the underlying factors that perpetuate these disparities. From scrutinizing wage discrepancies to unraveling the prevalence of occupational segregation, this data is a vital resource in the relentless pursuit of gender equality in the workforce. <a href="https://www.dol.gov/agencies/wb/data/occupations">Link to dataset</a>
@@ -35,6 +45,56 @@ This dataset from 2021 from the US Department of Labor is the most recent datase
 <p>8. Median Earnings Women: This column specifically focuses on the median earnings for women , respectively, allowing for a direct comparison of gender-based wage disparities.</p>
 <p>9. Women's Earnings as a Percentage of Men's Earnings: This column provides a crucial metric for understanding the gender pay gap within each occupation. It quantifies the difference in earnings between men and women, expressed as a percentage, highlighting the extent of gender-based wage inequality.</p>
 </body>
+
+## Installation
+- Import and Alias Modules
+```python
+# import & alias modules
+import math
+import pandas as pd
+from scipy import stats
+import seaborn as sns
+import matplotlib.pyplot as plt
+import plotly.express as px
+from google.colab import drive
+drive.mount('/content/gdrive')
+sns.set()
+pd.set_option('display.max_colwidth', None)
+ ```
+- Bring in the Dataset
+```python
+#read in data
+gender_pay_df = pd.read_csv("/content/gdrive/MyDrive/Thinkful /Capstone 3/Book3.csv")
+gender_pay_df.info() # see the information for our dataframe
+ ```
+## EDA
+EDA involved exploring the data to answer these questions:
+- Top 10 Jobs with the highest gender pay gap
+```python
+top_10_occupations = gender_pay_df.sort_values('gender_pay_gap', ascending=True).head(10)
+# Plotting the top 10 occupations with the largest gender pay gap
+plt.figure(figsize=(12, 6))
+plt.bar(top_10_occupations['Occupation'], top_10_occupations['gender_pay_gap'], color='#CD9C8B')
+plt.title('Top 10 Occupations with Largest Gender Pay Gap', fontsize=16)
+plt.xlabel('Occupation', fontsize=12)
+plt.ylabel('Gender Pay Gap', fontsize=12)
+plt.xticks(rotation=45, ha='right', fontsize=10)
+plt.yticks(fontsize=10)
+plt.grid(axis='y', linestyle='--')
+plt.legend(['Gender Pay Gap'], loc='upper right', fontsize=10)
+
+# Adding data labels outside the bars and changing color if negative
+for i, value in enumerate(top_10_occupations['gender_pay_gap']):
+    color = 'red' if value < 0 else 'black'
+    plt.text(i, value, f'{value:.2f}', ha='center', va='bottom', fontsize=8, rotation=90, color=color, fontweight='bold')
+plt.tight_layout()  # Ensures labels are not cut off
+plt.show()
+ ```
+
+Running Descriptive Statistics 
+```python
+gender_pay_df.describe().round() # see the descriptive statistics
+ ```
 <div align="center"><h2>Hypotheses</h2> </div>
 <p></p>
 <p>1. The proportion of women in an occupational group is positively correlated with the ratio of women's earnings to men's earnings within that group.</p>
