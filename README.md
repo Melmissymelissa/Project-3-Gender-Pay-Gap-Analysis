@@ -18,7 +18,7 @@
 </body>
 <h3>Understand</h3>
 <p></p>
-<p>1. The factors that contributeAnalyze the data behind the gender pay gap and occupational segregation</p>
+<p>1. The factors that contribute to the widening of the gender pay gap and occupational segregation</p>
 <p>2. Analyze the data behind the gender pay gap and occupational segregation</p>
 </body>
 <h3>Want To Know</h3>
